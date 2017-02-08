@@ -8,6 +8,8 @@ public class Lab3Exercises {
 		myFrame.setSize(200, 200);
 		//We subtract the frame's dimensions to truly center the frame.
 		myFrame.setLocation(960 - myFrame.getWidth(), 540 - myFrame.getHeight());
+		MyPanelClass myPanel = new MyPanelClass();
+        myFrame.getContentPane().add(myPanel);
 		myFrame.setVisible(true);
 	}
 }

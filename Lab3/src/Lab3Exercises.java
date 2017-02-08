@@ -6,7 +6,7 @@ public class Lab3Exercises {
 		myFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		//Ubuntu pc resolution is 1920 x 1080
 		myFrame.setSize(200, 200);
-		//We substract the frame's dimensions to truly center the frame.
+		//We subtract the frame's dimensions to truly center the frame.
 		myFrame.setLocation(960 - myFrame.getWidth(), 540 - myFrame.getHeight());
 		myFrame.setVisible(true);
 	}
